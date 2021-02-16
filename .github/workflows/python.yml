@@ -1,0 +1,30 @@
+import random
+import time
+number=random.randint(1,9)
+print("Ask the magic 8 ball a question.")
+time.sleep(5)
+print("Searching for an answer")
+for x in range(10):
+     print(str("."))
+     time.sleep(.5)
+print("Please be patient")
+time.sleep(1)
+if number==(1):
+   print(("It is certain"))
+elif number==(2):
+    print("The odds are pretty good")
+elif number==(3):
+    print("You can count on it")
+elif number==(4):
+    print("Ask me later")
+elif number==(5):
+    print("hmmm, concentrate and ask again")
+elif number==(6):
+    print("Question not clear, try again")
+elif number==(7):
+    print("Not likely")
+elif number==(8):
+    print("Yeah.. That's gonna be a no")
+elif number==(9):
+    print("I don't see it in the stars.")
+    
