@@ -1,0 +1,28 @@
+'''win percentage'''
+
+from functools import reduce
+
+
+# Get the number of wins and losses 
+
+wins = input(int("Enter the nnumber of wins for your team: "))
+
+losses = input(int("Enter the number of losses for your team: "))
+
+
+
+
+def win_percentage:
+	win_percentage = (wins + losses) /2
+print("The average is ", win_percentage(x))
+
+
+def main():
+	while True:
+		wins=int(input("Enter the number of wins: "))
+		losses =int(input("Enter the number of losses: "))
+		print("The average for the team is" , win_percentage)
+
+
+if __name__ == "__main__":
+	main()
